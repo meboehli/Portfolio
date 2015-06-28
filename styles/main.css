@@ -1,0 +1,57 @@
+@import url("reset.css");
+@import url("fonts/Adelle/Adelle-Light.otf");
+@import url("fonts/Adelle/Adelle-Bold.otf");
+
+body {
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+
+.container {
+	max-width: 1170px;
+	background-color: lightgreen;
+	margin: 0 auto;
+	font-family: "Adelle-Light", Helvetica, Sans-Serif;
+}
+
+.flex-row-between {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+nav {
+	width: 1110px;
+	background-color: lightpink;
+	position: fixed;
+	min-height: 75px;
+	height: 90px;
+	font-size: 20px;
+	padding: 60px 30px 0;
+}
+
+div.categories {
+	width: 250px;
+}
+
+.main {
+	background: lightyellow;
+	padding-top: 150px;
+}
+
+.pythonclutch div:first-of-type {
+	background: lightblue;
+	
+}
+
+.pythonclutch div:last-of-type {
+	background: coral;
+	
+}
+
+.projectimage {
+	height: 200px;
+	width: 200px;
+}

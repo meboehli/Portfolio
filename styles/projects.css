@@ -1,0 +1,151 @@
+/********************************************************
+General
+********************************************************/
+
+.pythonclutch {
+	background: white;
+}
+
+.first-project {
+	display: none;
+}
+
+.project {	
+	width: 100%;
+	height: 89.5vh; /* will change in JS */
+	position: relative;
+}
+
+.pythonclutch .projectimage {
+	background: rgba(48,165,148,.5);
+}
+
+.pythonclutch .projectinfo {
+	background: #c5e9e1;
+}
+
+.projectinfo {
+	width: 71.62%;
+	height: 100%;
+/*	height: 100%;*/
+	padding: 0 10.04%;
+}
+
+
+.projectinfo p {
+	padding-top: 20px;
+}
+
+.view_more_button {
+	margin-top: 20px;
+	font-size: 16;
+	font-family: "Adelle-Bold";
+	letter-spacing: 0.25em;
+	padding: 13px 10px 14px;
+	width: 155px;
+	background: transparent;
+	border: 2px solid black;
+}
+
+.view_more_button:hover {
+	color: #c5e9e1;
+	background: black;
+	cursor: pointer;
+}
+
+.projectimage {
+	width: 58.3%;
+	position: absolute;
+	z-index: 2;
+	top: 12.125%;
+	right: 0px;
+	height: 75.75%;
+
+
+}
+
+.projectinfo-text {
+	width: 30%;
+	min-width: 300px;
+}
+
+
+
+/********************************************************
+Transitions
+********************************************************/
+
+.projectinfo .interactivebox {
+	padding-top: 40vh;
+}
+
+.interactivebox-mover {
+	width: 20px;
+	height: 20px;
+/*	padding: 12px;*/
+	margin: 0;
+	background: rgba(48,165,148,.5);
+	animation: box_mover 1s forwards;
+}
+
+.interactivebox-mover:hover {
+	margin: 0 0 0 130px;
+	-webkit-transition: margin 1s;
+	transition: margin 1s;
+}
+
+@keyframes box_mover {
+	0% {
+		margin-left: 0;
+	}
+
+	100% {
+		margin-left: 200px;
+	}
+}
+
+@keyframes title_mover {
+	0% {
+		left: 0;
+	}
+
+	100% {
+		left: 200px;
+	}
+}
+
+.projectinfo-text .revealtitle {
+	margin-top: 10px; 
+	height: 30px;
+	position: relative;
+
+}
+
+.revealtitle-mover {
+	background: #c5e9e1; 
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	top: -2px;
+	animation: title_mover 1s forwards;
+
+
+}
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

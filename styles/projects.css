@@ -20,6 +20,15 @@ General
 	background: rgba(48,165,148,.5);
 }
 
+.pythonclutch .projectimage img {
+	max-width: 915px;
+	max-height: 510px;
+	height: auto; 
+    width: auto; 
+    margin-left: -40px;
+    padding-top: 45px;
+}
+
 .pythonclutch .projectinfo {
 	background: #c5e9e1;
 }
@@ -38,8 +47,8 @@ General
 
 .view_more_button {
 	margin-top: 20px;
-	font-size: 16;
-	font-family: "Adelle-Bold";
+	font-size: 18;
+	font-family: "Gotham-Bold";
 	letter-spacing: 0.25em;
 	padding: 13px 10px 14px;
 	width: 155px;

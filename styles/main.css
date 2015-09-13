@@ -1,11 +1,11 @@
 /********************************************************
 General
 ********************************************************/
-
-@import url("reset.css");
+/*
+@import url("reset.css");*/
 @import url("projects.css");
-@import url("fonts/Adelle/Adelle-Light.otf");
-@import url("fonts/Adelle/Adelle-Bold.otf");
+@import url("fonts/Gotham/Gotham-Light.otf");
+@import url("fonts/Gotham/Gotham-Bold.otf");
 
 body {
 	width: 100%;
@@ -17,7 +17,7 @@ body {
 	width: 95%;
 	background-color: lightgreen;
 	margin: 0 auto;
-	font-family: "Adelle-Light", Helvetica, Sans-Serif;
+	font-family: "Gotham-Light", Helvetica, Sans-Serif;
 }
 
 .flex-row-between {
@@ -34,18 +34,18 @@ body {
 }
 
 h2 {
-	font-family: "Adelle-Bold";
-	font-size: 28px; 
+	font-family: "Gotham-Bold";
+	font-size: 26px; 
 }
 
 p {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 24px;
 }
 
 h3 {
 	font-size: 16;
-	font-family: "Adelle-Bold";
+	font-family: "Gotham-Bold";
 	letter-spacing: 0.25em;
 }
 
